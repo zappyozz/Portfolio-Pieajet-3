@@ -1,0 +1,111 @@
+/*font-family: 'Quicksand', sans-serif;*/
+
+nav {
+    background-color: lightgray;
+}
+
+nav a {
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    vertical-align: middle;
+}
+
+.text-logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signal img {
+    padding-right: 20px;
+}
+
+.quote-title {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.quote-credit {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cate-title {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    border-radius: 50%;
+    width: 75%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.category img:hover {
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.45);
+}
+
+.category-ex {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.category-ex a {
+    text-decoration: none;
+    color: black;
+}
+
+.new-arrivals {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.arrivals {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.arrivals img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.buy-button-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.foot-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.foot-nav-title {
+    padding-bottom: 12px;
+}

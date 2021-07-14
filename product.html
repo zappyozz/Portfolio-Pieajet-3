@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="product-style.css">
+    <link rel="stylesheet" href="w3 css/w3.css">
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="Jquery/jquery3.6.js"></script>
+    <script src="OwlCarousel/dist/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-bar row">
+                <div class="col-md-2 text-logo">
+                    ZAPP-STORE
+                </div>
+                <div class="col-md-8 ">
+                    <a href="main.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="col-md-2 signal">
+                    <img src="image/search-icon-png-9985.png" alt="">
+                    <img src="image/shopping-cart-icon-29076.png" alt="">
+                    <img src="image/heart-icon-3351.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="topic row">
+            FEATURED CATEGORIES
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="image/fea-shirt1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <a href="shop.html">SHIRT</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="image/fea-pants.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="shop.html">PANTS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="image/fea-shoe1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="shop.html">SHOE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="image/fea-short1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="shop.html">SHORT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="image/fea-skirt1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="shop.html">SKIRT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="image/fea-tshirt1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="shop.html">T-SHIRT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="image/fea-access.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="shop.html">ACCESSORY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="topic-2 row">
+            PRODUCT
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="w3-content" style="max-width:1200px">
+                    <img class="mySlides" src="image/fea-pants1.jpg" style="width:100%;display:none">
+                    <img class="mySlides" src="image/fea-shirt1.jpg" style="width:100%">
+                    <img class="mySlides" src="image/fea-shoe1.jpg" style="width:100%;display:none">
+
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="image/fea-pants1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="image/fea-shirt1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="image/fea-shoe1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product-topic">
+                    Lorem ipsum dolor sit amet consectetur
+                </div>
+                <div class="product-price">
+                    999 THB
+                </div>
+                <div class="product-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur recusandae animi aut modi, inventore quidem. Ea labore doloribus quasi iste illum dolor, ducimus hic minima voluptate voluptatum. Illum, unde tempore.
+                </div>
+                <hr>
+                <div class="product-ex-title">
+                    Size
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio" id="">XS
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio" id="">S
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio" id="">M
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio" id="">L
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio" id="">XL
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio" id="">XXL
+                    </div>
+                </div>
+                <div class="product-ex-title">
+                    Quantity
+                </div>
+                <div class="box row">
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">1
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">2
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">3
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">4
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">5
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">6
+                    </div>
+                </div>
+                <div class="box row">
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">7
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">8
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">9
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <input type="radio" class="boxbox" name="radio1" id="">10
+                    </div>
+                </div>
+
+                <div class="buy-button d-grid gap-2 col-16 mx-auto">
+                    <button type="button" class="btn btn-secondary">BUY</button>
+                    <button type="button" class="btn btn-primary">SAVE TO CART</button>
+                    <button type="button" class="btn btn-danger">FAVOURITE</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <hr>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="new-arrivals row">
+            NEW ARRIVALS
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="arrivals row">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img src="image/shirt1.jpg" alt="">
+                <!--arrivals-list-->
+                <div class="arrival-ex">
+                    Black shirt
+                    <P>600฿</P>
+                    <div class="buy-button-container">
+                        <button type="button" class="btn btn-secondary">BUY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img src="image/skirt1.jpg" alt="">
+                <!--arrivals-list-->
+                <div class="arrival-ex">
+                    Scott skirt
+                    <P>350฿</P>
+                    <div class="buy-button-container">
+                        <button type="button" class="btn btn-secondary">BUY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img src="image/shoes1.jpg" alt="">
+                <!--arrivals-list-->
+                <div class="arrival-ex">
+                    Sneakers
+                    <P>2,000฿</P>
+                    <div class="buy-button-container">
+                        <button type="button" class="btn btn-secondary">BUY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img src="image/slippers1.jpg" alt="">
+                <!--arrivals-list-->
+                <div class="arrival-ex">
+                    Slippers
+                    <P>500฿</P>
+                    <div class="buy-button-container">
+                        <button type="button" class="btn btn-secondary">BUY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img src="image/watch1.jpg" alt="">
+                <!--arrivals-list-->
+                <div class="arrival-ex">
+                    Watch
+                    <P>6,500฿</P>
+                    <div class="buy-button-container">
+                        <button type="button" class="btn btn-secondary">BUY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img src="image/shorts1.jpg" alt="">
+                <!--arrivals-list-->
+                <div class="arrival-ex">
+                    Black shorts
+                    <P>300฿</P>
+                    <div class="buy-button-container">
+                        <button type="button" class="btn btn-secondary">BUY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav>
+        <div class="container">
+            <div class="foot-nav row">
+                <div class="foot-nav-title">
+                    SIGN UP & GET AN EXCLUSINE OFFER
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-warning" type="button">SIGN UP</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--JS SCRIPT -->
+
+    <!--Swiper-->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            slidesPerGroup: 4,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
+
+    <!--w3 content-->
+    <script>
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-opacity-off";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

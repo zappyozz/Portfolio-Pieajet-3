@@ -1,0 +1,127 @@
+/*font-family: 'Quicksand', sans-serif;*/
+
+nav {
+    background-color: lightgray;
+}
+
+nav a {
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.nav-bar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    vertical-align: middle;
+}
+
+.text-logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signal img {
+    padding-right: 20px;
+}
+
+.topic {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.swiper-container {
+    height: 400px;
+}
+
+.swiper-container .swiper-slide {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.swiper-container .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-body-product .btn-secondary {
+    align-items: center;
+}
+
+.topic-2 {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-online .product-card {
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.shp-cart {
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.shp-cart img {
+    padding-left: 24px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    vertical-align: middle;
+}
+
+.foot-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.foot-nav-title {
+    padding-bottom: 12px;
+}
+
+.button-showmore {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.topic-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+#more {
+    display: none;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: black;
+}

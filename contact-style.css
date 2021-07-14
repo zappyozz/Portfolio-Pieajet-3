@@ -1,0 +1,65 @@
+/*font-family: 'Quicksand', sans-serif;*/
+
+nav {
+    background-color: lightgray;
+}
+
+nav a {
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    vertical-align: middle;
+}
+
+.text-logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signal img {
+    padding-right: 20px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.ex {
+    text-align: center;
+}
+
+.foot-pic img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.foot-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.foot-nav-title {
+    padding-bottom: 12px;
+}
